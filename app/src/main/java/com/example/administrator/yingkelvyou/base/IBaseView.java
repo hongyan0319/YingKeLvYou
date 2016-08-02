@@ -5,9 +5,5 @@ package com.example.administrator.yingkelvyou.base;
  */
 public interface IBaseView {
 
-    public int getLayoutId();
 
-    public void initView();
-
-    public void initData();
 }

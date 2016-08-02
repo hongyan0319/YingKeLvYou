@@ -9,17 +9,15 @@ import com.example.administrator.yingkelvyou.base.IBaseView;
  */
 public class MainContract {
     public interface View extends IBaseView{
-        void onSuccess(String content);
 
-        void onFail(String msg);
     }
 
     public interface  Presenter extends IBasePresenter{
-        void getData();
+
 
     }
 
     public interface  Model extends IBaseModel{
-        void getData();
+
     }
 }
